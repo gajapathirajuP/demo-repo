@@ -1,5 +1,6 @@
 # Data Types : DT are categories that define what kind of data a variable can hold.
 # Python is dynamic typed language(assumes type based on value)
+
 # 1. Numeric Type
 # int : 1,2,3,4,0,-1,-2 etc.,
 # float : 2.3,11.11,2.3 etc
@@ -20,13 +21,13 @@ print(type(data))
 data = 4 + 6j
 print(type(data))
 
-# Text Type
+# 2.Text Type
 # String : sequence of characters enclosed inside ('' or "")
 
 data = "hi everyone"
 print(type(data))
 
-# Boolean Type : Represents True or False
+# 3.Boolean Type : Represents True or False
 
 data = True
 print(type(data))
@@ -34,12 +35,12 @@ print(type(data))
 data = False
 print(type(data))
 
-# None Type : Represents nothing i.e., absence of value
+# 4.None Type : Represents nothing i.e., absence of value
 
 data = None
 print(type(data))
 
-# Sequence Type
+# 5.Sequence Type
 
 # String is also a sequnce type
 # List is complext data type it holds multiple values,represented using [].Mutable (Can be changed)
@@ -57,7 +58,7 @@ print(data)
 data = (1,2,3,4,5)
 print(type(data))
 
-# Set Type
+# 6.Set Type
 # Set : complex data type holds multiple values ( unique data -> No duplicates) represented using {}.Mutable (Can be changed)
 # frozenset : complex data type holds multiple values ( unique data -> No duplicates) represented using frozenset class. Imutable (Can't be changed)
 
@@ -75,7 +76,7 @@ data = frozenset({1,2,3,4,5,1})
 print(type(data))
 print(data)
 
-# Map Type
+# 7.Map Type
 # dictionary : complex data type holds multiple key & values represented using {}.Mutable (Can be changed)
 
 data = {"name" :" raju","age" : 35,"gender" : "M"}
