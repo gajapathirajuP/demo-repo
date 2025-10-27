@@ -36,7 +36,7 @@ print("-------")
 
 # compound assignement operators
 # assignment operator is = used for assigning a value
-# CAO cobine artithmatic and assignment opeartor . used for concise code.
+# CAO combine artithmatic and assignment opeartor . used for concise code.
 
 #x = 10
 #x = x + 5 (long hand)
