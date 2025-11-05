@@ -85,3 +85,21 @@ print(f"Additional Discount: {additional_discount}%")
 print(f"Total Discount     : {total_discount}% -> {discount_amount}")
 print(f"Final Tuition Fee  : {final_fee}")
 print("================================")
+
+
+email = input("Enter Email Id: ")
+format_email = email.lower().strip()+"@gmail.com"
+print("Original Email: "+email)
+print("Formatted EMail: "+format_email)
+
+
+pan = input("Enter Pan Id: ")
+# print(pan.isalnum())
+if pan.isalnum() :
+    format_pan = pan.upper().strip()
+    print("Original Pan: "+pan)
+    print("Formatted Pan: "+format_pan)
+else:
+    print("Invalid Pan Id")    
+    
+ 
