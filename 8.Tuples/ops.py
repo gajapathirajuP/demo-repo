@@ -20,3 +20,4 @@ print(data.index(30))
 data = (10,20,30,10,40,50,10)
 print(data)
 print(data.count(10))
+
