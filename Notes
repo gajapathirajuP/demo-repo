@@ -1,0 +1,1134 @@
+15th Oct 2025
+=============
+
+    -> Python 
+
+        -> Full Stack : Django (Python for Apps, Flask, FAST API etc)
+
+        -> Data Analytics / Data Science / AI (Numpy, Pandas, Pytorch etc)
+
+        -> Cloud & DevOps (OS, Sys, Cloud SDK's etc)
+
+    -> Core Python which is common for all above courses (30-35 Days)
+
+        -> Language Fundamentals 
+
+    ->  Python is a high-level, general-purpose programming language. 
+        Its design philosophy emphasizes code readability 
+        with the use of significant indentation. 
+        Python is dynamically type-checked and garbage-collected.
+
+    -> High-level programming language
+
+        -> Human Understandable language (English) 
+
+        -> python (English) 
+
+    -> Low-level programming languages
+
+        -> Machine Understandable language (01010101) [Binary Language]
+
+        -> 01110000 01111001 01110100 01101000 01101111 01101110 
+
+    -> General-purpose programming language
+
+        -> If i can do multiple type of tasks / apps 
+
+        -> python (we can build various types of applications)
+
+            -> Desktop Applications 
+
+            -> Web Applications 
+
+            -> Data Oriented Applications
+
+            -> etc 
+
+    -> Domain Specific programming languages
+
+        -> If i can do only one specific type of tasks / apps 
+
+        -> SQL Structured Query Language is a domain-specific language 
+            used to manage data.
+
+    -> Python's design philosophy emphasizes code readability 
+        with the use of significant indentation
+
+        -> Readability is good because of indentation
+
+        -> Indentation 
+
+            -> other languages => () ; etc 
+            -> python language => space
+
+        -> Readability & Indentation
+
+            -> Java 
+            
+                class Main {
+                    public static void main(String[] args) {  
+                        int first = 10;
+                        int second = 20;
+                        int sum = first + second;
+                        System.out.println(sum);
+                    }
+                }
+
+            -> Python 
+
+                first = 10
+                second = 20
+                sum = first + second
+                print(sum)
+
+    -> Python is dynamically type-checked and garbage-collected.
+
+        -> Dynamically type-checked language (python)
+
+            -> Data Types : Categorization of data 
+
+                -> text, whole numbers, decimal numbers etc 
+
+            -> In Dynamically type-checked language we don't need to define data types 
+
+                -> product = "Apple Iphone 15"
+                -> price = 50000
+                -> quantity_left = 5
+                -> rating = 4.6
+
+        -> Static type-checked language (java)
+
+            -> In Static type-checked language we need to define data types for sure
+
+                -> String product = "Apple Iphone 15";
+                -> double price = 50000;
+                -> int quantityLeft = 5;
+                -> double rating = 4.6;
+
+    -> Garbage-collected
+
+        -> Removing Unused Data 
+
+        -> Python automatically cleans up the unused data / memory 
+
+            -> print(product)
+            -> print(price)
+            -> print(rating)
+
+            -> python cleans up quantity_left as it's not used 
+
+16th Oct 2025
+=============
+
+    -> Python is a Interpreted language 
+
+        -> An interpreted language is a programming language that executes 
+        instructions directly, "line by line", without a separate compilation step.
+
+        -> Performance wise Interpreted language are slow compared to Compiled language. 
+
+    -> Java is a Compiled Language
+
+        -> Compiled languages are translated into machine code all at once before execution.
+
+        -> Performance wise Compiled languages are Faster 
+
+    -> Python 
+
+        -> Python is considered as worlds best PROTO TYPE LANGUAGE
+
+            -> Focus on how fast we are developing the application
+
+        -> Vast Eco System (libraries)
+
+    -> Programming Paradigms 
+
+        -> A programming paradigm is a relatively high-level way to 
+            conceptualize and structure the implementation of a computer program.
+
+        -> Problem : How to reach institute ?
+
+            -> Ans 1 : I'll walk and come
+            -> Ans 2 : I'll come by bike
+            -> Ans 3 : I'll come by car
+            -> Ans 4 : I'll come by public transport bus 
+
+        -> Imperative Approach 
+
+            -> Focus is on HOW TO DO (style) 
+
+            -> Object Oriented Programming 
+
+        -> Declarative Approach 
+
+            -> Focus is on WHAT TO DO (style) 
+
+            -> Functional Programming 
+
+        -> Python allows you to go with multi paradigm 
+
+    
+    -> Key Features Of Python / Why Python ?
+
+        -> Simplicity & Easy Readability 
+
+        -> Versatility  
+
+            -> Data Oriented / Full Stack / Cloud Automation / DevOps etc 
+
+        -> Multi paradigm Programming Language (OOPS / FUNCTIONAL)
+
+        -> Dynamic Typed 
+
+        -> Open Source (FREE)
+
+        -> High Level Language (no 0101001 => just english like)
+
+
+        -> List Of Popular Applications Where Python is used 
+
+            ->  https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites   
+
+
+    -> Requirements for this course 
+
+        -> Hardware 
+
+            -> i3 / i5 processor 
+
+            -> 4 GB RAM / 8 GB RAM 
+
+            -> 500 GB HDD / SSD 
+        
+        -> Software 
+
+            -> Install Python Interpreter (https://python.org)
+
+                -> In Windows (python)
+
+                -> In Mac (python3)
+
+            -> IDE : Integrated Development Environment 
+
+                -> Visual Studio Code 
+
+            -> Git (OPTIONAL) : Code Tracking 
+
+
+21st Oct 2025
+=============
+
+    -> Python Setup 
+
+        -> open command prompt (windows)
+
+            -> python --version (windows)
+
+        -> open terminal (mac)
+
+            -> python3 --version (mac)
+
+    -> IDE - Visual Studio Code Setup 
+
+    
+    -> Where to write python code 
+
+        -> Command Line Mode (not recommended)
+
+            -> We write the code in command prompt / terminal 
+
+            -> Temporary, once we close the session all code is gone 
+
+        -> Script Mode (recommended)
+
+            -> We write the code in IDE i.e Visual Studio Code 
+
+            -> Permanent, stored on disk 
+
+    
+    -> How To write python code ?
+
+        -> Any programming language has Syntax (Rules & Guideline)
+
+        -> Comparing programming language with english language
+
+            -> i taking class now today at 7 AM now (incorrect)
+
+            -> i'm taking class today at 7 AM (correct)
+
+            -> Learning English 
+
+                -> English has 26 alphabets (abcde.....z)
+
+                -> Using this alphabets, you will form words and complex sentences over time 
+
+            -> Learning Python 
+
+                -> Python has Keywords like alphabets in english
+
+                    -> Python has 35 Keywords
+
+                -> Using python Keywords with proper syntax, you can build application over time 
+
+                -> List Of Python Keywords
+
+                    -> https://docs.python.org/3/reference/lexical_analysis.html#keywords
+                
+                    False      await      else       import     pass
+                    None       break      except     in         raise
+                    True       class      finally    is         return
+                    and        continue   for        lambda     try
+                    as         def        from       nonlocal   while
+                    assert     del        global     not        with
+                    async      elif       if         or         yield
+
+22nd Oct 2025
+=============    
+
+    -> Python rules 
+
+        -> Comments are represented using # 
+
+            -> when we comment using #, python will ignore that line
+
+        -> When working with numerics (1,2,3.5 etc) we can directly use them in print()
+
+        -> When working with text, in python text is called as "strings"
+
+            -> Rule is strings need to be enclosed in 'good morning' or "good morning"
+
+    -> Identifiers 
+
+        -> An identifier is a "name" used to uniquely identify a piece of data
+
+            -> Variable
+            -> Function
+            -> Class
+            -> Object 
+            -> Method 
+            -> etc
+
+        -> Identifiers Rules 
+
+            -> Can Contain 
+
+                -> Letters (a-z, A-Z)
+                -> Digits (0-9)
+                -> Special Symbol (Only Underscore _ )
+
+            -> Must Start with 
+
+                -> A letter or _ (Underscore)  
+
+    -> NOTE : Always use proper way of naming identifiers 
+
+
+    -> Data : Hard Drive - Persistent Storage (Permanent) - SLOW
+
+    -> Data : Memory (RAM) - Non-Persistent Storage (Temporary) - FAST
+
+    -> Variables 
+
+        -> Variable is a named storage location in a computer's memory (RAM)
+            that holds a value or data
+
+        -> Computer -> Memory RAM  -> Variables
+
+        -> How to store data / using variable, but how ?
+
+            -> Syntax 
+
+                variable_name = value 
+
+                variable_name should follow Identifier Rules 
+                = is called as assignment operator 
+                value is data you want to store 
+        
+        -> Variables allows you to 
+
+            -> Assign Data (Storing Data)
+            -> Retrieve Data 
+            -> Manipulate Data (If Required)
+
+23rd Oct 2025
+=============
+
+    -> How to Combine variables with our statements 
+
+        -> Concatenation joining strings (+)
+
+        -> for print() you can pass as argument using ,
+
+    -> How to know the memory address of a variable
+
+        -> Function : does a task 
+
+        -> print() : prints on standard output 
+
+        -> id() : will show memory address 
+
+    -> Memory Model Of Python (Variables)
+
+        -> If the value is already present, python will not create again a memory block, 
+            instead it will just use reference, so memory is efficiently used 
+
+        -> Simple Data Type : Holds one value in a single variable ex is int  
+
+        -> Complex Data Type : Holds "multiple values" in a single variable ex is list 
+
+    -> type() : will display the data type of variable
+
+    -> Interpolation 
+
+        -> Interpolation technique replaces, place holders with actual values dynamically
+
+        -> Using f-strings (Formatted String Literals)
+
+            -> we use f with print and {} as place holders 
+
+24th Oct 2025
+=============
+
+    -> Operators 
+
+        -> Operators are special "symbols", performs operations on variables and their values 
+
+        -> There are different types of Operators 
+
+            -> Arithmetic Operators  
+
+                -> + - * / % 
+                -> // : floor division (same as division but rounds off result)
+                -> ** : Exponentiation (calculate power)
+            
+            -> Compound Assignment Operators  
+
+                -> Assignment operator is = used for assigning a value 
+
+                -> Compound Assignment Operators combine Arithmetic with Assignment Operator
+
+                -> Used for short hand code (concise code)
+
+                    -> x = 10 
+                    -> x = x + 5 (long form)
+                    -> x += 5 (short form)
+                    -> x *= 5 (short form)
+
+                    -> Increment / Decrement : ++ / --
+
+                        -> Python doesn't support above syntax 
+
+                        -> In python to achieve Increment / Decrement we use 
+                            Compound Assignment Operators
+            
+            -> Comparison Operators  
+
+                -> Used for comparing values and results in boolean (True/False)
+
+                -> Especially used in conditionals 
+
+                -> ==, !=, >, <, >=, <=
+
+            -> Logical Operators  
+
+                -> For performing logical operations 
+
+                -> Used to check multiple conditionals and results in boolean (True/False)
+
+                    -> and : if both the conditions are True, then result is True 
+                    -> or : if one of the conditions is True, then result is True 
+                    -> not : negates, if true then false and vice versa
+
+                            X       Y       X and Y    X or Y    not X    not Y
+                            T       T           T         T         F       F
+                            T       F           F         T         F       T
+                            F       T           F         T         T       F
+                            F       F           F         F         T       T 
+
+            -> Membership Operators  
+
+                -> Used for checking if an object is in sequence 
+
+                    -> in : returns True, if given object is in sequence 
+
+                    -> not in : returns True, if given object is not in sequence 
+            
+            -> Identity Operators  
+
+                -> Used for checking if both objects are same 
+
+                    -> is : returns True, if objects are same 
+
+                    -> is not : returns True, if objects are not same 
+
+            -> Bitwise Operators  
+
+                -> Used in Low Level Programming (01010101)
+
+                    -> & - if both the bits are 1, then result is 1
+                    -> | - if one of the bits is 1, then result is 1 
+                    -> etc 
+
+        -> https://www.cardekho.com/mahindra/be-6
+
+        
+25th Oct 2025
+=============
+
+    -> Data Types 
+
+        -> Data types are categories that define, what kind of data a variable can hold
+
+        -> Python is dynamic typed language (assumes type based on value)
+
+        -> Numeric Type 
+
+            -> int : 1,2,4,0,-1,-5 etc
+            -> float : 3.5, 10.0, 2.1 etc 
+            -> complex : 
+                -> a + ib in math (i is imaginary)
+                -> a + bj in python 
+
+        -> Text Type 
+
+            -> str : String is a sequence of characters inclosed in " " or ' '
+
+        -> Boolean Type
+
+            -> bool : Represents True/False 
+        
+        -> None Type 
+
+            -> NoneType : Represents nothing i.e absence of value 
+
+        -> Sequence Type 
+
+            -> String is also a sequence type 
+
+            -> List : Complex Datatype => Holds Multiple Values, represented using [], Mutable (can be changed)
+
+            -> Tuple : Complex Datatype => Holds Multiple Values, represented using (), Immutable (cannot be changed)
+
+        -> Set Type 
+
+            -> set : Complex Datatype => Holds Multiple Values(unique data -> No Duplicates), 
+                    represented using {}, Mutable (can be changed)
+            
+            -> frozenset : Complex Datatype => Holds Multiple Values(unique data -> No Duplicates), 
+                    represented using frozenset class, Immutable (cannot be changed)
+
+        -> Map Type 
+
+            -> dictionary : Complex Datatype => Holds Multiple Key & Values, represented using {}, Mutable (can be changed)
+
+        -> NOTE : All the above Data types are pre-defined in python standard library 
+
+        -> NOTE : Based on custom requirements, we can create our own data types also 
+
+            -> Syntax
+
+                class CustomDataType:
+                    statements
+    
+
+    -> Type Conversion / Implicit 
+
+        -> Converting one Datatype to another, automatically by python
+
+        -> Type Conversion is SAFE no data loss 
+    
+    -> Type Casting / Explicit 
+
+        -> Converting one Datatype to another, manually by developer 
+
+        -> Type Casting is NOT SAFE, data loss might occur 
+
+        -> We use some predefined Functions 
+
+27th Oct 2025
+=============
+
+    -> Control Structures / Control Statements
+
+        -> Control structures helps you determine the flow of execution in a program, 
+            allowing you to make decisions and repeat tasks.
+
+        -> Python has given three types of Control structures
+
+            -> Conditional Statements / Structures (Decision Making Statements)
+
+            -> Looping Statements / Structures (Iteration Statements)
+
+            -> Branching Statements / Structures (Jumping Statements)
+
+        -> Indentation 
+
+            -> Indentation in Python is a fundamental and mandatory aspect of its "syntax", 
+                used to define the structure and hierarchy of code blocks. 
+                Unlike many other programming languages that use curly braces or keywords 
+                to delineate blocks, Python relies entirely on consistent indentation.
+
+            -> Using space correctly 
+
+                -> Python allows for any consistent number of spaces or a single tab(4 spaces) for indentation, 
+                the widely accepted and recommended standard.
+
+                -> At least one space but recommended is 4 space i.e tab 
+
+                
+        -> Conditional statements
+
+            -> Used to run a "block of code" based on a condition result 
+
+            -> if 
+
+                -> runs a block of code, if the condition is True 
+
+                    -> syntax 
+                        if condition:
+                            statements 
+
+            
+            -> if else
+
+                -> runs a block of code, if the condition is True 
+                   runs another block of code, if the condition is False  
+
+                    -> syntax 
+                        if condition:
+                            statements 
+                        else:
+                            statements
+                        
+        -> NOTE : input() function reads input from user 
+
+28th Oct 2025
+=============
+    
+    -> The ternary operator in Python, also known as a conditional expression, 
+    provides a concise way to write an if-else statement on a single line. 
+    It evaluates a condition and returns one of two values 
+    based on whether the condition is true or false.
+
+    -> syntax 
+        value_if_true if condition else value_if_false
+    
+    -> elif ladder
+
+        -> elif is a keyword that stands for "else if". 
+        It is used in conditional statements to check for "multiple conditions" 
+        sequentially after an initial if statement.
+
+        -> syntax 
+            if condition:
+                statements
+            elif condition:
+                statements
+            elif condition:
+                statements
+            .
+            .
+            else:
+                statements
+
+
+    -> match-case
+    
+        -> Like elif we have match-case in python for checking "multiple conditions" 
+
+        -> Offers a more expressive and readable alternative to 
+            complex if-elif-else chains
+
+        -> introduced from python 3.X 
+
+        -> In other languages like java / c++ we had (switch case)
+
+        -> syntax
+            match expression:
+                case pattern1:
+                    # Code block 1
+                case pattern2:
+                    # Code block 2
+                # ...
+                case _:  # Optional wildcard/default case
+                    # Default code block
+
+    -> Nested Conditionals 
+
+        -> Conditionals inside Conditionals    
+
+29th Oct 2025
+=============
+
+    -> Looping Statements (Iteration Statements)
+
+        -> Loops in Python are used to repeatedly execute a block of code. 
+        
+        -> When you want to do a task multiple times, use loops
+
+        -> Python offers two primary types of loops
+            
+            -> "while" loops 
+
+            -> "for" loops
+
+        -> while loop 
+
+            -> while loops execute a block of code repeatedly 
+            as long as a specified condition remains True
+
+            -> We use while generally, when we don't know number of
+            Iterations in advance 
+
+            -> syntax
+
+                while condition:
+                    statements
+                
+        -> for loop
+
+            -> for loops are used to iterate over a sequence (like a list, tuple, string, or range) 
+            or other iterable objects. 
+            The loop executes a block of code once for each item in the sequence. 
+
+            -> We use for generally, when we  know number of Iterations in advance 
+
+            -> syntax 
+
+                for var in sequence:
+                    print(var)
+            
+            -> How do i know, if an object is iterable ?
+
+                -> use dir() 
+                -> dir() function in Python is a built-in function used for introspection, 
+                    allowing you to discover the attributes and methods of an object 
+
+            -> range() 
+
+                -> The range() function in Python generates an immutable sequence of numbers. 
+                It is commonly used for iterating a specific number of times in for loops. 
+
+                -> range(start, stop, step): This form generates a sequence of numbers starting 
+                from start (inclusive) up to, but not including, the stop value, 
+                with an increment of step. The step can be positive or negative.
+
+                    range(start, stop, step)
+                        -> start default is 0 (included) (inclusive)
+                        -> stop at this value (excluded) (exclusive)
+                        -> step is increment (default step is 1)
+                        
+30th Oct 2025
+=============
+
+    -> Nested Loops 
+
+        -> Loops inside loops 
+        
+31st Oct 2025
+=============
+
+    -> Branching Statements (Jumping Statements)
+
+        -> break : help you exit the loops 
+
+        -> continue : help you skip the current iteration 
+
+        -> pass : acts as a placeholder, does nothing 
+
+
+    -> Strings 
+
+        -> Strings are one of the most widely used Datatype in any programming language
+
+        -> In Python, a string is a sequence of characters, used to represent text. 
+            Strings are a fundamental data type and are widely used for 
+            handling and manipulating textual information.
+
+        -> Strings are enclosed in double quotes ("") or single quotes('') or 
+            triple quotes(''' ''') or (""" """)
+
+            -> single line strings : use double quotes ("") or single quotes('')
+
+            -> multi line strings : use triple quotes(''' ''') or (""" """)
+
+        -> Rules When Defining Strings 
+
+            -> strings must be defined in  double quotes ("") or single quotes('') or 
+            triple quotes(''' ''') or (""" """)
+
+            -> When you use single quote in a string, enclose them in double quotes 
+            -> When you use double quote in a string, enclose them in single quotes 
+            -> When you use both single quote and double quote in a string, 
+                enclose them in triple quotes 
+
+1st Nov 2025
+=============
+
+    -> Control Statements Tasks 
+
+3rd Nov 2025
+=============
+
+    -> Accessing Strings
+
+    -> Indexing 
+
+        -> String indexing in Python allows access to individual characters within a string 
+        using their "position", known as the "index". 
+        
+        -> Python uses zero-based indexing, meaning the first character is at index 0, 
+            the second at index 1, and so on.
+        
+        -> Positive Indexing:
+            Starts from the beginning of the string.
+            The index of the first character is 0.
+        
+        -> Negative Indexing:
+            Starts from the end of the string.
+            The index of the last character is -1.
+
+        -> text = "python"
+            
+            0  1  2  3  4  5   [Positive Indexing]
+            p  y  t  h  o  n
+           -6  -5 -4 -3 -2 -1  [Negative Indexing]
+
+        -> syntax
+
+            string[index]
+
+            -> NOTE : Accessing invalid index will raise error (IndexError)
+
+
+    -> Slicing 
+
+        -> String slicing in Python is a method for extracting a portion (substring) 
+        from a larger string. It utilizes the slice operator [] with specific 
+        indices to define the desired segment.
+
+        -> syntax 
+
+            string[start:end:step]
+
+                start (optional): The index where the slice begins (inclusive). If omitted, it defaults to 0 (the beginning of the string).
+                end (optional): The index where the slice ends (exclusive). The character at this index is not included. If omitted, it defaults to the length of the string (the end of the string).
+                step (optional): The increment between each index during slicing. If omitted, it defaults to 1. A negative step value can be used to slice in reverse.
+
+            -> Earlier range()
+                
+                range(start,end,step)
+
+    
+    -> String Concatenation 
+
+        -> Joining the strings 
+
+    -> Formatted String Literals (f-strings)
+
+        -> Using Interpolation {} with f 
+
+    -> String Repetition 
+
+        -> Repeat strings using "*" operator
+
+    -> String Immutability 
+
+        -> Strings are Immutable in nature (immutable == cannot be changed)
+
+    -> String Methods 
+
+        -> String methods in Python are built-in functions that operate on 
+        string objects, allowing for various manipulations, transformations, and checks. 
+        It is important to note that strings in Python are immutable, 
+        meaning these methods do not modify the original string but 
+        instead return a new string with the applied changes.
+
+        -> https://docs.python.org/3/library/stdtypes.html#string-methods
+
+
+4th Nov 2025
+=============
+
+    -> String Methods 
+
+    
+5th Nov 2025
+=============
+
+    -> Strings App Requirement
+
+    -> Simple Data Types 
+
+        -> Can hold one value 
+
+            -> data = 10
+            -> data = "hello" 
+            -> data = 10.5
+
+    -> Complex Data Types 
+
+        -> Can hold multiple values 
+
+            -> data = [10,20,30]
+            -> data = ["hello","hi","hey"]
+            -> data = [10.5,3.5,2.2]
+
+    -> Python provides following classes to work with complex data types 
+
+        -> List
+        -> Tuple 
+        -> Dictionary
+        -> Set 
+
+
+6th Nov 2025
+=============
+
+    -> List 
+
+        -> List is a data structure which allows you to store multiple values
+            in a single variable, each value is separated with , 
+
+        -> Lists are represented using [ ] or using list class
+
+        -> Accessing Data In Lists 
+
+            -> Like in Strings, we have index concept in Lists too 
+
+            -> Index Starts with Zero (0)
+
+            -> Supports Positive & Negative Index 
+
+            -> Indexing & Slicing same as strings 
+
+                -> string[start:end:step]
+
+        -> Looping we can apply 
+
+        -> Operators we can apply 
+
+        -> Conditionals we can apply 
+
+        -> Duplicates allowed in Lists 
+
+        -> Order is preserved in Lists 
+
+
+    -> Lists support different methods for performing operations on data 
+
+7th Nov 2025
+============
+
+    -> List Methods / Operations 
+
+    -> List Characteristics 
+
+        -> Order : Lists are Ordered (insertion order is preserved)
+
+        -> Mutable : Lists are Mutable (can be changed)
+
+        -> Duplicates : Lists Allows Duplicates
+
+    
+    -> Tuple 
+
+        -> Tuple is a data structure which allows you to store multiple values
+            in a single variable, each value is separated with , 
+
+        -> Tuples are represented using ( ) or using tuple class
+
+        -> Accessing Data In Tuples 
+
+            -> Like in Strings, we have index concept in Tuples too 
+
+            -> Index Starts with Zero (0)
+
+            -> Supports Positive & Negative Index 
+
+            -> Indexing & Slicing same as strings 
+
+                -> string[start:end:step]
+
+        -> Looping we can apply 
+
+        -> Operators we can apply 
+
+        -> Conditionals we can apply 
+
+        -> Duplicates allowed in Tuples 
+
+        -> Order is preserved in Tuples 
+
+        -> NOTE: Tuples are "Immutable" (cannot be changed)
+
+        -> NOTE: Tuples are "READ ONLY" Lists 
+
+    -> Tuple support only two methods count & index i.e reading 
+
+    -> Tuple Characteristics 
+
+        -> Order : Tuples are Ordered (insertion order is preserved)
+
+        -> Mutable : Tuples are Immutable (cannot be changed) (**)
+
+        -> Duplicates : Tuples Allows Duplicates
+
+    
+    -> Dictionaries 
+
+        -> Dictionaries is a data structure which allows you to store multiple 
+            key & values in a single variable, each item is separated with , 
+
+                -> key:value [item/pair]
+
+        -> Dictionaries are represented using { } or using dict class
+
+        -> Accessing Data In Dictionaries 
+
+            -> Like in Strings, we don't have index concept in Dictionaries
+
+                -> NOTE: Dictionaries don't have INDEX 
+
+            -> Doesn't Support Positive & Negative Index 
+
+            -> Doesn't Support Indexing & Slicing
+
+        -> Looping we can apply 
+
+        -> Operators we can apply 
+
+        -> Conditionals we can apply 
+
+        -> Duplicates allowed in Dictionaries with conditions 
+
+            -> Values can be Duplicated 
+            -> Keys should be Unique  
+
+            -> Keys should be immutable objects only 
+                -> 90% and above strings will be keys 
+
+            -> Values can be any objects  
+
+        -> Order is preserved in Dictionaries 
+
+
+    -> Dictionaries support different methods for performing operations on data 
+
+
+8th Nov 2025
+============
+
+    -> Dictionary Real world use cases
+
+    -> https://www.convertsimple.com/wp-content/uploads/2022/05/json-example.png
+
+
+10th Nov 2025
+=============
+
+    -> Dictionary Methods 
+
+    -> Dictionary Characteristics 
+
+        -> Order : Dictionaries are Ordered (insertion order is preserved)
+
+        -> Mutable : Dictionaries are Mutable (can be changed)
+
+        -> Duplicates : Dictionaries Allows Duplicates in values, if keys are Duplicated
+                        then the key is overridden 
+
+
+    -> Set 
+
+        -> Set is a data structure which allows you to store multiple values
+            in a single variable, each value is separated with , 
+
+        -> Sets are represented using { } or using set  class
+
+        -> Accessing Data In Sets 
+
+            -> NOTE: Sets don't have INDEX 
+
+            -> Doesn't Support Positive & Negative Index 
+
+            -> Doesn't Support Indexing & Slicing
+
+        -> Looping we can apply 
+
+        -> Operators we can apply 
+
+        -> Conditionals we can apply 
+
+        -> Duplicates Not allowed in Sets 
+
+        -> Order is not preserved in Sets
+
+        -> Sets are UUU 
+
+            -> U - Unique Data Ony  (No Duplicates)
+
+            -> U - Unindex 
+
+            -> U - Unordered  
+
+    -> Sets are specifically used with math sets operations 
+
+    -> Sets support different methods for performing operations on data 
+
+    -> Frozen Set 
+
+        ->  Frozen Sets are UUU 
+
+            -> U - Unique Data Ony  (No Duplicates)
+
+            -> U - Unindex 
+
+            -> U - Unordered  
+
+        -> NOTE : Frozen Set are Immutable Unlike Sets 
+
+        -> Frozen Sets cannot be represented using symbols, 
+            only with class we can create 
+
+        -> NOTE : Frozen Set only supports math related set operations 
+
+11th Nov 2025
+=============
+
+    -> Sets Operations 
+
+    -> frozen set operations are exactly same as set, except they are immutable 
+
+    -> Set Characteristics 
+
+        -> Order : Sets are UnOrdered (insertion order is not preserved)
+
+        -> Mutable : Sets are Mutable (can be changed)
+
+        -> Duplicates : Sets Doesn't Allow Duplicates 
+    
+    -> Frozen Set Characteristics 
+
+        -> Order : Sets are UnOrdered (insertion order is not preserved)
+
+        -> Immutable : Frozen Sets are Immutable (cannot be changed)
+
+        -> Duplicates : Frozen Sets Doesn't Allow Duplicates
+
+    
+    -> How to use above data structures in Applications ?
+
+        -> Lists        (When To Use)
+        -> Tuples       (When To Use)
+        -> Dictionaries (When To Use)
+        -> Sets         (When To Use)
+
+    -> CRUD Applications (Database - Web Applications)    
+
+        -> C - CREATE 
+        -> R - READ
+        -> U - UPDATE
+        -> D - DELETE 
+
+    
