@@ -2,7 +2,7 @@
 
         # Set is a data structure which allows you to store multiple values in a single variable, each value is separated with , 
 
-        # Sets are represented using { } or using set  class
+        # Sets are represented using { } or using set class
 
         # Accessing Data In Sets 
 
