@@ -122,3 +122,5 @@ data_fz_set =frozenset({10,20,10,30,20,40,10,50})
 print(type(data_fz_set))
 
 print(dir(data_fz_set))
+
+
