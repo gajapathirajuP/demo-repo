@@ -1171,6 +1171,242 @@
                 statements
         
         -> calling function is must
-                function_name()        
+                function_name()      
+
+14th Nov 2025
+=============
+
+    -> Python functions can be defined to accept "parameters" 
+        which can act as placeholders for values that will be 
+        passed into function when called. 
+    
+    -> Values passed to the function we call them as "arguments"
+
+    -> We use parameters to make functions dynamic in nature 
+
+    -> Based On arguments passed to functions, we got five types 
+
+        -> Positional Arguments 
+
+        -> Keywords Arguments 
+
+        -> Default Arguments 
+
+        -> Arbitrary Positional Arguments
+
+        -> Arbitrary Keywords Arguments
+        
+
+    -> Positional Arguments
+
+        -> In Python, positional arguments are values passed to a function during 
+        its call, where the assignment of these values to the function's parameters 
+        is determined solely by their order (position) in the argument list. 
+        
+        -> The first argument in the function call is assigned to the first parameter 
+        in the function definition, the second to the second, and so on. 
+
+        -> Order Matters: If the order is incorrect, the function will receive the wrong values 
+            for its intended parameters, potentially leading to errors or unexpected behavior.
+
+
+    -> Keywords Arguments
+
+        -> In Python, keyword arguments are a way to pass values to a function by explicitly 
+        "naming the parameters" they correspond to, rather than relying on their position in the argument list. 
+        
+        -> This offers several advantages, primarily in terms of code readability and flexibility.
+
+    -> Default Arguments
+
+        -> In Python, default arguments allow you to define a function parameter with a "pre-assigned" value. 
+        If a caller does not provide an argument for that parameter during a function call, 
+        the default value is automatically used. If an argument is provided, it overrides the default.
+
+        -> Placement Requirement: Default arguments must always be placed after any non-default (positional) 
+            arguments in the function definition. 
+            Attempting to place a non-default argument after a default argument will result in a SyntaxError.
+    
+    
+    -> Arbitrary Positional Arguments
+
+        -> In Python, arbitrary positional arguments allow a function to accept 
+            a variable/unknown number of non-keyword arguments. 
+            This is achieved by placing an asterisk (*) before a parameter name in the function definition. 
+            
+        -> This parameter will then collect all the extra positional arguments passed to the function 
+            into a single tuple. 
+
+17th Nov 2025
+=============
+
+    -> Arbitrary Keyword Arguments
+
+        -> In Python, arbitrary keyword arguments allow a function to accept 
+            a variable/unknown number of keyword arguments. 
+            This is achieved by placing an asterisk (**) before a parameter name in the function definition. 
+
+        -> This parameter will be collected into a dictionary, where the names will be keys and 
+            values will be dictionary values  
+
+    -> "return" keyword 
+
+        -> In Python, the "return" keyword is used within a function to send a value 
+        back to the part of the code that called the function.
+
+        -> when you don't use a return, by default a function returns None 
+
+        -> When working with function composition (function calling another function), return will 
+            be helpful 
+
+        -> If you use return, make sure it's the last part of statement to be executed
+
+        -> If you have multiple return statements, first will be considered
+
+        -> If multiple returns are present, and used with conditionals, you can control the flow 
+
+
+18th Nov 2025
+=============
+
+    -> Scopes in Functions 
+
+        -> Scope : Inside the code block, where you can access variable depends on Scope
+
+            -> Local Scope
+
+            -> Global Scope 
+
+        -> Local Scope
+
+            -> A local variable declared "inside the function" 
+            -> it's lifetime exists only within the function
+            -> we cannot use them outside the function 
+            -> NOTE : Parameters we are passing to the functions, are also local variables 
+        
+        -> Global Scope
+
+            -> A Global variable declared outside the function 
+            -> it's lifetime exists within the function as well as outside function 
+
+            -> As global variables can be accessed inside the functions, there can be
+            name conflicts, in this scenario the preference is given to local variables 
+
+                -> NOTE : To Access Global Variable in above scenario, use globals()
+
+            -> If you want global variables to be changed inside the function, we cannot 
+                do that directly 
+
+                -> NOTE : To change Global Variable inside function, use global keyword
+
+    -> Types Of Functions 
+
+        -> Built In Functions 
+
+            -> Pre defined functions, already part of standard python library 
+
+            -> No need to create explicitly again using def keyword 
+
+            -> Examples
+
+                -> type, len, max, min, dir, id, input etc 
+
+        
+        -> User Defined Functions 
+
+            -> User defined functions, created by Developers using def keyword
+
+            -> Custom functions created based on customers requirements
+
+            -> Examples
+
+                -> add(), emp_info(), math_ops, bank_transactions() etc 
+
+        
+        -> Lambda Functions (Anonymous Functions) 
+
+            -> A lambda function in Python is a small, anonymous function 
+            defined with the "lambda" keyword. 
+
+            -> Unlike standard functions defined with def, lambda functions are 
+            restricted to a "single expression", which is "implicitly returned".
+
+            -> They are often used for "short, one-time operations" where 
+                a full function definition would be unnecessarily verbose.
+
+            -> syntax
+
+                lambda arguments:expression
+
+            -> Using lambda we can write one liner functions called "IILE" 
+
+                Immediately Invoked Lambda Expression  
+
+19th Nov 2025
+=============
+
+    -> Lambda & Higher Order Functions 
+
+    -> Generally lambda functions will be attached with Higher Order Functions 
+
+    -> Higher Order Functions 
+
+        -> The goal of Higher Order Functions is to "perform operations on Iterables" 
+
+        -> Concise Code, without writing lengthy code with loops 
+    
+            -> map()
+
+                -> The map() function in Python is a built-in function that applies 
+                    a given function to each item in an iterable (like a list, tuple, or string) 
+                    and returns an iterator containing the results. 
+                    
+                -> It provides a concise way to perform "transformations" on 
+                    collections of data without explicitly writing loops. 
+
+                    -> syntax
+
+                        map(function, iterable)
+
+                -> NOTE: Just Like Using For Loop with function
+
+
+20th Nov 2025
+=============
+
+    -> filter()
+
+                -> The filter() function in Python is a built-in function used to construct an iterator 
+                from elements of an iterable for which a function returns true. 
+                It is a powerful tool for selectively extracting data based on a given condition.
+
+                -> syntax
+
+                        filter(function, iterable)
+
+                -> NOTE: Just Like Using For Loop with Conditions 
+
+    
+    -> reduce()
+
+                -> The reduce() function in Python, found within the "functools" module, is a higher-order function 
+                that applies a given function cumulatively to the items of an iterable, 
+                reducing the iterable to a single, cumulative value.
+
+                -> from functools import reduce
+
+                -> syntax
+
+                        reduce(function, iterable)
+    
+    -> etc 
+
+21st Nov 2025
+=============
+
+    -> Functional Style With CRUD App 
+
+        -> Additionally Implement Search Students By Skill Using Higher Order 
+            functions approach                   
 
     
