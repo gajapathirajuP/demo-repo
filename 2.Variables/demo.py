@@ -25,7 +25,6 @@ print (student_unknown_data)
 # Retrieve data with statements -> Concatenation  can use both (+/,)  string to string // not with Int or float(numbers) use only coma(,)
 
 #print ("Student_name:" Student_name ) Invalid syntax
-print ("Student_name:" + Student_name) 
 #print ("Student_age:" + Student_age) Invalid syntax
 print ("Student_age:" , Student_age) 
 #print ("Student_gpa:" + Student_gpa) Inavlid syntax
